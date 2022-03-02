@@ -58,11 +58,12 @@ body {
 .heading-secondary {
   color: #333;
   font-weight: 700;
+
+  letter-spacing: -1px;
 }
 .heading-primary {
   font-size: 5.2rem;
   line-height: 1.05;
-  letter-spacing: -1px;
 
   margin-bottom: 2rem;
 }

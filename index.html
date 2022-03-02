@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,6 +26,7 @@
     <link rel="stylesheet" href="css/features.css" />
     <link rel="stylesheet" href="css/solution.css" />
     <link rel="stylesheet" href="css/pricing.css" />
+    <link rel="stylesheet" href="css/cta.css" />
     <link rel="stylesheet" href="css/styles.css" />
 
     <title>ShyftRoll &mdash; Your Ultimate Planning Partner</title>
@@ -60,9 +70,7 @@
               companies successfully automate their duty scheduling. Scalable to
               thousands of employees. Even for complex layer models.
             </p>
-            <a href="#" class="btn btn--primary mg-small-right"
-              >Start scheduling now</a
-            >
+            <a href="#" class="btn btn--primary mg-small-right">Book a demo</a>
             <a href="#" class="btn btn--secondary">Learn more &rarr;</a>
           </div>
           <div class="hero-img-box">
@@ -178,19 +186,92 @@
       </section>
 
       <!-- SECTION SOLUTION -->
-      <section class="section-solution">
+      <section class="section-testimonials">
         <div class="container">
           <h2 class="heading-secondary center">
-            Best solutions only
-            <span class="brand-name-light">ShyftRoll</span> provides!
+            How
+            <span class="brand-name">ShyftRoll</span> makes their customer's
+            life easy
           </h2>
-          <div class="solution-grid">
-            <p class="solution-heading">Road map planning</p>
-            <p class="solution-heading">Optimization analysis</p>
-            <p class="solution-heading">Onboarding programs</p>
-            <p class="solution-heading">System implementation</p>
-            <p class="solution-heading">Employee's training</p>
-            <p class="solution-heading">Contant support</p>
+          <div class="testimonials-grid">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/dave.jpg"
+                alt="testimonial customer"
+              />
+              <blockquote class="testimonial-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Necessitatibus harum maiores enim ad iure dolor fugiat quos quod
+                aperiam, tempora recusandae assumenda.
+              </blockquote>
+              <p class="testimonial-author">&mdash; Dave Brynson</p>
+            </figure>
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/hannah.jpg"
+                alt=""
+              />
+              <blockquote class="testimonial-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Necessitatibus harum maiores enim ad iure dolor fugiat quos quod
+                aperiam, tempora recusandae assumenda.
+              </blockquote>
+              <p class="testimonial-author">&mdash; Hannah Johnson</p>
+            </figure>
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/steve.jpg"
+                alt="Testimonial Customer"
+              />
+              <blockquote class="testimonial-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Necessitatibus harum maiores enim ad iure dolor fugiat quos quod
+                aperiam, tempora recusandae assumenda.
+              </blockquote>
+              <p class="testimonial-author">&mdash; Steve Jobs</p>
+            </figure>
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/ben.jpg"
+                alt="Testimonial Customer"
+              />
+              <blockquote class="testimonial-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Necessitatibus harum maiores enim ad iure dolor fugiat quos quod
+                aperiam, tempora recusandae assumenda.
+              </blockquote>
+              <p class="testimonial-author">&mdash; Ben Stokes</p>
+            </figure>
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/customer-1.jpg"
+                alt="Testimonial customer"
+              />
+              <blockquote class="testimonial-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Necessitatibus harum maiores enim ad iure dolor fugiat quos quod
+                aperiam, tempora recusandae assumenda.
+              </blockquote>
+              <p class="testimonial-author">&mdash; Jacob Wilson</p>
+            </figure>
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                src="img/customers/customer-2.jpg"
+                alt="Testimonial customer"
+              />
+              <blockquote class="testimonial-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Necessitatibus harum maiores enim ad iure dolor fugiat quos quod
+                aperiam, tempora recusandae assumenda.
+              </blockquote>
+              <p class="testimonial-author">&mdash; Rachel Smith</p>
+            </figure>
           </div>
         </div>
       </section>
@@ -199,8 +280,141 @@
       <section class="section-pricing">
         <div class="container">
           <h2 class="heading-secondary">
-            Best plans only <span class="brand-name">ShyftRoll</span> provides!
+            Best plans only <span class="brand-name">ShyftRoll</span> provides
           </h2>
+        </div>
+        <div class="container pricing-grid">
+          <div class="pricing-plan plan-starter">
+            <p class="plan-heading">Professional</p>
+            <div class="plan-list">
+              <p class="plan-list-heading">Your benifits at a glance:</p>
+              <ul class="plan-list-items">
+                <li class="list">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-circle"
+                  ></ion-icon>
+                  <span> Shift planning </span>
+                </li>
+                <li class="list">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-circle"
+                  ></ion-icon>
+                  <span> API connection </span>
+                </li>
+                <li class="list">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-circle"
+                  ></ion-icon>
+                  <span> employee engagement </span>
+                </li>
+                <li class="list">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-circle"
+                  ></ion-icon>
+                  <span> time tracking </span>
+                </li>
+                <li class="list">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-circle"
+                  ></ion-icon>
+                  <span> absence management </span>
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="plan-btn">Arrange a demo now</a>
+          </div>
+          <div class="pricing-plan">
+            <p class="plan-heading">Enterprise</p>
+
+            <div class="plan-list">
+              <p class="plan-list-heading">Your benifits at a glance:</p>
+              <ul class="plan-list-items">
+                <li class="list">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-circle"
+                  ></ion-icon>
+                  <span> Fully automatic shift planning </span>
+                </li>
+                <li class="list">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-circle"
+                  ></ion-icon>
+                  <span> Single Sign On </span>
+                </li>
+                <li class="list">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-circle"
+                  ></ion-icon>
+                  <span> Interfaces to existing systems </span>
+                </li>
+                <li class="list">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-circle"
+                  ></ion-icon>
+                  <span> Contact person </span>
+                </li>
+                <li class="list">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-circle"
+                  ></ion-icon>
+                  <span> Individual onboarding </span>
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="plan-btn">Arrange a demo now</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta">
+        <div class="container">
+          <div class="cta cta-grid">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">
+                It's time for smart shift planning
+              </h2>
+
+              <p class="cta-description">
+                Get inspiring insights into how businesses can stay
+                future-proof. Talk to our experts for an individual potential
+                analysis.
+              </p>
+              <form action="#" class="cta-form">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    type="text"
+                    class="full-name"
+                    placeholder="William Jones"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    class="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+                <button class="btn btn--form">Book a demo</button>
+              </form>
+            </div>
+            <div class="cta-img-box">
+              <img class="cta-img" src="img/cta-img.jpg" alt="CTA IMAGE" />
+            </div>
+          </div>
         </div>
       </section>
     </main>
