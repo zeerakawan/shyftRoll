@@ -1,0 +1,77 @@
+/* 
+--- TYPOGRAPHY SYSTEM
+  FONT SIZE SYSTEM (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+--- WHITESPACE
+  SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/* ////////////////////////////////////////////////// */
+.section-footer {
+  padding: 9.6rem 0;
+  background-color: #222;
+  color: #fff;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 4.8rem;
+}
+
+.logo {
+  margin-bottom: 2.4rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.social-links {
+  display: flex;
+  gap: 4.8rem;
+  align-items: center;
+  margin-bottom: 3.2rem;
+}
+
+.social-icon {
+  font-size: 3rem;
+  color: #2f9e44;
+}
+
+.company-info {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.col-heading {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+}
+
+.contact-col a {
+  display: block;
+  font-size: 1.6rem;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 1.2rem;
+}
+
+.address {
+  font-size: 1.6rem;
+  font-style: normal;
+  margin-bottom: 3.2rem;
+}
+
+.directory-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.directory-links-list {
+  font-size: 1.6rem;
+}
