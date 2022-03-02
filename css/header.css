@@ -41,7 +41,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #2b8a3e;
+  color: #216f30;
 }
 
 .main-nav-link.nav-cta:link,
@@ -54,5 +54,5 @@
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #2b8a3e;
+  background-color: #216f30;
 }

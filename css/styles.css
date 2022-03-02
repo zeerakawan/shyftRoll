@@ -1,4 +1,10 @@
 /* 
+
+Primary: #2f9e44
+TINT: #216f30
+SHADE: #f4fce3
+
+
 --- TYPOGRAPHY SYSTEM
   FONT SIZE SYSTEM (px)
   10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
@@ -23,4 +29,57 @@ body {
   font-weight: 400;
   line-height: 1;
   color: #555;
+}
+
+.brand-name {
+  color: #2f9e44;
+}
+
+.brand-name-light {
+  color: #f4fce3;
+}
+.grid {
+  display: grid;
+  gap: 3.2rem;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.heading-tertiary,
+.heading-primary,
+.heading-secondary {
+  color: #333;
+  font-weight: 700;
+}
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  letter-spacing: -1px;
+
+  margin-bottom: 2rem;
+}
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+
+  margin-bottom: 4.8rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+
+  margin-bottom: 3.2rem;
+}
+
+.center {
+  text-align: center;
 }

@@ -12,6 +12,7 @@
 .section-hero {
   padding: 9.6rem 0;
   background-color: #f4fce3;
+  /* background-color: #2f9e44; */
 }
 
 .hero {
@@ -20,33 +21,15 @@
   padding: 0 3.2rem;
 
   display: grid;
-  grid-template-columns: 35% 65%;
+  grid-template-columns: 45% 55%;
   align-items: center;
   gap: 2.4rem;
-}
-
-.heading-primary {
-  font-size: 5.2rem;
-  font-weight: 700;
-  color: #333;
-  line-height: 1.05;
-  letter-spacing: -1px;
-
-  margin-bottom: 2rem;
 }
 
 .hero-description {
   font-size: 2rem;
   color: #333;
   line-height: 1.6;
-
-  margin-bottom: 6.4rem;
-}
-
-.heading-secondary {
-  font-size: 3rem;
-  font-weight: 500;
-  line-height: 1.8;
 
   margin-bottom: 6.4rem;
 }
@@ -75,7 +58,7 @@
 .btn--primary:hover,
 .btn--primary:active {
   display: inline-block;
-  background-color: #2b8a3e;
+  background-color: #216f30;
   color: #fff;
   padding: 1.2rem 1.6rem;
   border-radius: 1rem;
